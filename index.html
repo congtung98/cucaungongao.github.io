@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" class="height-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/register.css">
+    <title>Document</title>
+</head>
+<body class="height-100">
+    <div id="app" class="height-100"></div>
+</body>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+<script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-auth.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-firestore.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDljxh7Ge--2AstYrJVrLhyRsCq6Tzgmdo",
+    authDomain: "tung-ci-28.firebaseapp.com",
+    databaseURL: "https://tung-ci-28.firebaseio.com",
+    projectId: "tung-ci-28",
+    storageBucket: "",
+    messagingSenderId: "209246118290",
+    appId: "1:209246118290:web:80484923719e5f84"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  var db = firebase.firestore();
+</script>
+<script src="./index.js" type="module"></script>
+</html>
